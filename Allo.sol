@@ -6,3 +6,5 @@ import "@openzeppelin-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol";
 import {AccessControl} from "@openzeppelin/access/AccessControl.sol";
 
 import "@solady/auth/Ownable.sol";
+
+import {Metadata} from "./libraries/Metadata.sol";
