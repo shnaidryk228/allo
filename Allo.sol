@@ -11,3 +11,4 @@ import {Metadata} from "./libraries/Metadata.sol";
 import {Clone} from "./libraries/Clone.sol";
 import {Transfer} from "./libraries/Transfer.sol";
 import {IStrategy} from "../strategies/IStrategy.sol";
+import {Registry} from "./Registry.sol";
