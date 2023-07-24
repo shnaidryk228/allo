@@ -30,3 +30,5 @@ import {Registry} from "./Registry.sol";
 /// @title Allo
 /// @notice The Allo contract
 /// @author allo-team
+contract Allo is Transfer, Initializable, Ownable, AccessControl {
+    using SafeERC20Upgradeable for IERC20Upgradeable;
