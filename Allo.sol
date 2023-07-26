@@ -35,3 +35,4 @@ contract Allo is Transfer, Initializable, Ownable, AccessControl {
 
     /// @notice Custom errors
     error UNAUTHORIZED();
+error NOT_ENOUGH_FUNDS();
