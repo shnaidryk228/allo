@@ -25,3 +25,4 @@ error NOT_ENOUGH_FUNDS();
    error NOT_APPROVED_STRATEGY();
  error IS_APPROVED_STRATEGY();
     error MISMATCH();
+  error ZERO_ADDRESS();
