@@ -26,3 +26,6 @@ error NOT_ENOUGH_FUNDS();
  error IS_APPROVED_STRATEGY();
     error MISMATCH();
   error ZERO_ADDRESS();
+ error INVALID_FEE();
+
+    /// @notice Struct to hold details of an Pool
