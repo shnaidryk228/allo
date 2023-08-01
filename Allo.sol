@@ -29,3 +29,5 @@ error NOT_ENOUGH_FUNDS();
  error INVALID_FEE();
 
     /// @notice Struct to hold details of an Pool
+   struct Pool {
+        bytes32 identityId;
