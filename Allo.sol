@@ -31,3 +31,5 @@ error NOT_ENOUGH_FUNDS();
     /// @notice Struct to hold details of an Pool
    struct Pool {
         bytes32 identityId;
+IStrategy strategy;
+        address token;
