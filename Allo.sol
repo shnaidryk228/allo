@@ -33,3 +33,5 @@ error NOT_ENOUGH_FUNDS();
         bytes32 identityId;
 IStrategy strategy;
         address token;
+uint256 amount;
+        Metadata metadata;
