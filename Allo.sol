@@ -35,3 +35,6 @@ IStrategy strategy;
         address token;
 uint256 amount;
         Metadata metadata;
+ bytes32 managerRole;
+        bytes32 adminRole;
+    }
