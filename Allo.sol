@@ -38,3 +38,6 @@ uint256 amount;
  bytes32 managerRole;
         bytes32 adminRole;
     }
+
+    /// @notice Fee denominator
+    uint256 public constant FEE_DENOMINATOR = 1e18;
