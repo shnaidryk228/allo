@@ -41,3 +41,6 @@ uint256 amount;
 
     /// @notice Fee denominator
     uint256 public constant FEE_DENOMINATOR = 1e18;
+
+    /// ==========================
+    /// === Storage Variables ====
