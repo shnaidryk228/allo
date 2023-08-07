@@ -44,3 +44,6 @@ uint256 amount;
 
     /// ==========================
     /// === Storage Variables ====
+ /// ==========================
+
+    /// @notice Fee percentage
