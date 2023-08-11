@@ -52,3 +52,6 @@ uint256 amount;
 
     /// @notice Base fee
     uint256 public baseFee;
+
+    /// @notice Incremental index
+    uint256 private _poolIndex;
