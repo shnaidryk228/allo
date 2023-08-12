@@ -55,3 +55,6 @@ uint256 amount;
 
     /// @notice Incremental index
     uint256 private _poolIndex;
+
+    /// @notice Allo treasury
+    address payable public treasury;
