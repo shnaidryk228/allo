@@ -58,3 +58,6 @@ uint256 amount;
 
     /// @notice Allo treasury
     address payable public treasury;
+
+    /// @notice Registry of pool creators
+    Registry public registry;
