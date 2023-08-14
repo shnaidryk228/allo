@@ -61,3 +61,5 @@ uint256 amount;
 
     /// @notice Registry of pool creators
     Registry public registry;
+
+    /// @notice msg.sender -> nonce for cloning strategies
