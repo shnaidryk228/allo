@@ -63,3 +63,6 @@ uint256 amount;
     Registry public registry;
 
     /// @notice msg.sender -> nonce for cloning strategies
+  mapping(address => uint256) private _nonces;
+
+    /// @notice Pool.id -> Pool
