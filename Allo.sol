@@ -66,3 +66,4 @@ uint256 amount;
   mapping(address => uint256) private _nonces;
 
     /// @notice Pool.id -> Pool
+mapping(uint256 => Pool) public pools;
