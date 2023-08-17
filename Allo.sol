@@ -67,3 +67,6 @@ uint256 amount;
 
     /// @notice Pool.id -> Pool
 mapping(uint256 => Pool) public pools;
+
+    /// @notice Strategy -> bool
+    mapping(address => bool) public approvedStrategies;
