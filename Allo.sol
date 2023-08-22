@@ -75,3 +75,4 @@ mapping(uint256 => Pool) public pools;
  uint256 public feeSkirtingBountyPercentage;
 
     /// ======================
+  /// === Storage Variables ====
