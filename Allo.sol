@@ -76,3 +76,6 @@ mapping(uint256 => Pool) public pools;
 
     /// ======================
   /// === Storage Variables ====
+ /// ==========================
+
+    /// @notice Fee percentage
