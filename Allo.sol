@@ -80,3 +80,6 @@ mapping(uint256 => Pool) public pools;
 
     /// @notice Fee percentage
  /// @dev 1e18 = 100%, 1e17 = 10%, 1e16 = 1%, 1e15 = 0.1%
+ uint256 public feePercentage;
+
+    /// @notice Base fee
