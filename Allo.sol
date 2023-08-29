@@ -83,3 +83,6 @@ mapping(uint256 => Pool) public pools;
  uint256 public feePercentage;
 
     /// @notice Base fee
+ uint256 public baseFee;
+
+    /// @notice Incremental index
