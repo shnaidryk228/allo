@@ -86,3 +86,6 @@ mapping(uint256 => Pool) public pools;
  uint256 public baseFee;
 
     /// @notice Incremental index
+ uint256 private _poolIndex;
+
+    /// @notice Allo treasury
