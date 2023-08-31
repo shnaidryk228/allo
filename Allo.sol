@@ -89,3 +89,4 @@ mapping(uint256 => Pool) public pools;
  uint256 private _poolIndex;
 
     /// @notice Allo treasury
+ address payable public treasury;
