@@ -90,3 +90,6 @@ mapping(uint256 => Pool) public pools;
 
     /// @notice Allo treasury
  address payable public treasury;
+
+    /// @notice Registry of pool creators
+    Registry public registry;
