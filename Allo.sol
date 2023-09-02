@@ -93,3 +93,6 @@ mapping(uint256 => Pool) public pools;
 
     /// @notice Registry of pool creators
     Registry public registry;
+
+    /// @notice msg.sender -> nonce for cloning strategies
+    mapping(address => uint256) private _nonces;
