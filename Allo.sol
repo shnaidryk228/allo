@@ -96,3 +96,5 @@ mapping(uint256 => Pool) public pools;
 
     /// @notice msg.sender -> nonce for cloning strategies
     mapping(address => uint256) private _nonces;
+
+    /// @notice Pool.id -> Pool
