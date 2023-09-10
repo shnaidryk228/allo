@@ -98,3 +98,6 @@ mapping(uint256 => Pool) public pools;
     mapping(address => uint256) private _nonces;
 
     /// @notice Pool.id -> Pool
+   mapping(uint256 => Pool) public pools;
+
+    /// @notice Strategy -> bool
