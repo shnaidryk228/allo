@@ -101,3 +101,4 @@ mapping(uint256 => Pool) public pools;
    mapping(uint256 => Pool) public pools;
 
     /// @notice Strategy -> bool
+mapping(address => bool) public approvedStrategies;
