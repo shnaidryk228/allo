@@ -102,3 +102,6 @@ mapping(uint256 => Pool) public pools;
 
     /// @notice Strategy -> bool
 mapping(address => bool) public approvedStrategies;
+
+    /// @notice Reward for catching fee skirting (1e18 = 100%)
+    uint256 public feeSkirtingBountyPercentage;
