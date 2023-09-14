@@ -108,3 +108,7 @@ mapping(address => bool) public approvedStrategies;
 
     /// ======================
     /// ======= Events =======
+    /// ======================
+
+    event PoolCreated(
+        uint256 indexed poolId,
