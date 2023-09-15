@@ -112,3 +112,5 @@ mapping(address => bool) public approvedStrategies;
 
     event PoolCreated(
         uint256 indexed poolId,
+   bytes32 indexed identityId,
+        IStrategy strategy,
