@@ -114,3 +114,4 @@ mapping(address => bool) public approvedStrategies;
         uint256 indexed poolId,
    bytes32 indexed identityId,
         IStrategy strategy,
+address token,
