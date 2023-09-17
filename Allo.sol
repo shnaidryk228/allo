@@ -115,3 +115,8 @@ mapping(address => bool) public approvedStrategies;
    bytes32 indexed identityId,
         IStrategy strategy,
 address token,
+ uint256 amount,
+        Metadata metadata
+    );
+
+    event PoolMetadataUpdated(uint256 indexed poolId, Metadata metadata);
