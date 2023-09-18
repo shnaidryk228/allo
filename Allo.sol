@@ -120,3 +120,7 @@ address token,
     );
 
     event PoolMetadataUpdated(uint256 indexed poolId, Metadata metadata);
+
+    event PoolFunded(uint256 indexed poolId, uint256 amount, uint256 fee);
+
+    event BaseFeePaid(uint256 indexed poolId, uint256 amount);
