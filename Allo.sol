@@ -126,3 +126,7 @@ address token,
     event BaseFeePaid(uint256 indexed poolId, uint256 amount);
 
     event PoolClosed(uint256 indexed poolId);
+
+    event PoolTotalFundingDecreased(uint256 indexed poolId, uint256 prevAmount, uint256 newAmount);
+
+    event TreasuryUpdated(address treasury);
