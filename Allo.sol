@@ -130,3 +130,7 @@ address token,
     event PoolTotalFundingDecreased(uint256 indexed poolId, uint256 prevAmount, uint256 newAmount);
 
     event TreasuryUpdated(address treasury);
+
+    event FeePercentageUpdated(uint256 feePercentage);
+
+    event BaseFeeUpdated(uint256 baseFee);
