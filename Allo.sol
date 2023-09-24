@@ -134,3 +134,5 @@ address token,
     event FeePercentageUpdated(uint256 feePercentage);
 
     event BaseFeeUpdated(uint256 baseFee);
+
+    event RegistryUpdated(address registry);
