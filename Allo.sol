@@ -136,3 +136,5 @@ address token,
     event BaseFeeUpdated(uint256 baseFee);
 
     event RegistryUpdated(address registry);
+
+    event StrategyApproved(address strategy);
