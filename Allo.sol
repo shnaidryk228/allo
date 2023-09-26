@@ -138,3 +138,8 @@ address token,
     event RegistryUpdated(address registry);
 
     event StrategyApproved(address strategy);
+
+    event StrategyRemoved(address strategy);
+
+    /// ====================================
+    /// =========== Intializer =============
