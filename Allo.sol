@@ -143,3 +143,7 @@ address token,
 
     /// ====================================
     /// =========== Intializer =============
+ /// ====================================
+
+    /// @notice Initializes the contract after an upgrade
+    /// @dev During upgrade -> an higher version should be passed to reinitializer
