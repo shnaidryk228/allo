@@ -149,3 +149,4 @@ address token,
     /// @dev During upgrade -> an higher version should be passed to reinitializer
    /// @param _registry The address of the registry
     /// @param _treasury The address of the treasury
+  /// @param _feePercentage The fee percentage
