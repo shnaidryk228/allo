@@ -150,3 +150,5 @@ address token,
    /// @param _registry The address of the registry
     /// @param _treasury The address of the treasury
   /// @param _feePercentage The fee percentage
+ /// @param _baseFee The base fee
+    function initialize(address _registry, address payable _treasury, uint256 _feePercentage, uint256 _baseFee)
