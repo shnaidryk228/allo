@@ -152,3 +152,9 @@ address token,
   /// @param _feePercentage The fee percentage
  /// @param _baseFee The base fee
     function initialize(address _registry, address payable _treasury, uint256 _feePercentage, uint256 _baseFee)
+     public
+        reinitializer(1)
+    {
+        _initializeOwner(msg.sender);
+
+        registry = Registry(_registry);
