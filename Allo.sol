@@ -158,3 +158,5 @@ address token,
         _initializeOwner(msg.sender);
 
         registry = Registry(_registry);
+ treasury = _treasury;
+        feePercentage = _feePercentage;
