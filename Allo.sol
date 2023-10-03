@@ -160,3 +160,6 @@ address token,
         registry = Registry(_registry);
  treasury = _treasury;
         feePercentage = _feePercentage;
+baseFee = _baseFee;
+
+        emit RegistryUpdated(_registry);
