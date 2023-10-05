@@ -165,3 +165,5 @@ baseFee = _baseFee;
         emit RegistryUpdated(_registry);
   emit TreasuryUpdated(_treasury);
         emit FeePercentageUpdated(_feePercentage);
+ emit BaseFeeUpdated(_baseFee);
+    }
