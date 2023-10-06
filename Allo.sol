@@ -167,3 +167,9 @@ baseFee = _baseFee;
         emit FeePercentageUpdated(_feePercentage);
  emit BaseFeeUpdated(_baseFee);
     }
+
+    /// ====================================
+    /// =========== Modifier ===============
+    /// ====================================
+
+    modifier onlyPoolManager(uint256 _poolId) {
