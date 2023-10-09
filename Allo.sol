@@ -175,3 +175,8 @@ baseFee = _baseFee;
     modifier onlyPoolManager(uint256 _poolId) {
  if (!_isPoolManager(_poolId, msg.sender)) {
             revert UNAUTHORIZED();
+  }
+        _;
+    }
+
+    modifier onlyPoolAdmin(uint256 _poolId) {
