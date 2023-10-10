@@ -180,3 +180,14 @@ baseFee = _baseFee;
     }
 
     modifier onlyPoolAdmin(uint256 _poolId) {
+ if (!_isPoolAdmin(_poolId, msg.sender)) {
+            revert UNAUTHORIZED();
+        }
+        _;
+    }
+
+    /// ====================================
+    /// ==== External/Public Functions =====
+    /// ====================================
+
+    /// @notice Creates a new pool (with custom strategy)
