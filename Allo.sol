@@ -193,3 +193,4 @@ baseFee = _baseFee;
     /// @notice Creates a new pool (with custom strategy)
  /// @param _identityId The identityId of the pool
     /// @param _strategy The address of strategy
+ /// @param _initStrategyData The data to initialize the strategy
