@@ -202,3 +202,5 @@ baseFee = _baseFee;
         bytes32 _identityId,
         address _strategy,
         bytes memory _initStrategyData,
+address _token,
+        uint256 _amount,
