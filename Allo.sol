@@ -222,3 +222,4 @@ Metadata memory _metadata,
     /// @param _initStrategyData The data to initialize the strategy
     /// @param _token The address of the token
     /// @param _amount The amount of the token
+ /// @param _metadata The metadata of the pool
