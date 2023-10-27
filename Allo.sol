@@ -225,3 +225,6 @@ Metadata memory _metadata,
  /// @param _metadata The metadata of the pool
  /// @param _managers The managers of the pool
     function createPoolWithCustomStrategy(
+    bytes32 _identityId,
+        address _strategy,
+        bytes memory _initStrategyData,
