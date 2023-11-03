@@ -234,3 +234,6 @@ address _token,
  address[] memory _managers
     ) external payable returns (uint256 poolId) {
         if (_strategy == address(0)) {
+     revert ZERO_ADDRESS();
+        }
+        if (_isApprovedStrategy(_strategy)) {
