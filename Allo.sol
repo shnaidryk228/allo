@@ -237,3 +237,7 @@ address _token,
      revert ZERO_ADDRESS();
         }
         if (_isApprovedStrategy(_strategy)) {
+     revert IS_APPROVED_STRATEGY();
+        }
+
+        return _createPool(_identityId, IStrategy(_strategy), _initStrategyData, _token, _amount, _metadata, _managers);
