@@ -250,3 +250,5 @@ address _token,
   /// @param _amount The amount of the token
  /// @param _metadata The metadata of the pool
  /// @param _managers The managers of the pool
+  function createPoolWithCustomStrategy(
+        bytes32 _identityId,
