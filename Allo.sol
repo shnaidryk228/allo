@@ -252,3 +252,5 @@ address _token,
  /// @param _managers The managers of the pool
   function createPoolWithCustomStrategy(
         bytes32 _identityId,
+ address _strategy,
+        bytes memory _initStrategyData,
