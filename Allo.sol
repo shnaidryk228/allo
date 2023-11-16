@@ -266,3 +266,7 @@ address _token,
         }
 
         return _createPool(_identityId, IStrategy(_strategy), _initStrategyData, _token, _amount, _metadata, _managers);
+  }
+
+    /// @notice Creates a new pool (by cloning an approved strategies)
+    /// @param _identityId The identityId of the pool
