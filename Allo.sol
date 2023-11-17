@@ -270,3 +270,5 @@ address _token,
 
     /// @notice Creates a new pool (by cloning an approved strategies)
     /// @param _identityId The identityId of the pool
+  /// @param _strategy The address of strategy
+    /// @param _initStrategyData The data to initialize the strategy
