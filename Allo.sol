@@ -272,3 +272,5 @@ address _token,
     /// @param _identityId The identityId of the pool
   /// @param _strategy The address of strategy
     /// @param _initStrategyData The data to initialize the strategy
+   /// @param _token The address of the token
+    /// @param _amount The amount of the token
