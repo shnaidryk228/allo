@@ -297,3 +297,12 @@ address _token,
 
     /// @notice Creates a new pool (by cloning an approved strategies)
  /// @param _identityId The identityId of the pool
+ /// @param _initStrategyData The data to initialize the strategy
+    /// @param _token The address of the token
+    /// @param _amount The amount of the token
+    /// @param _metadata The metadata of the pool
+    /// @param _managers The managers of the pool
+    function createPool(
+        bytes32 _identityId,
+        address _strategy,
+        bytes memory _initStrategyData,
