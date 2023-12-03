@@ -308,3 +308,6 @@ address _token,
         bytes memory _initStrategyData,
  address _token,
         uint256 _amount,
+ Metadata memory _metadata,
+        address[] memory _managers
+    ) external payable returns (uint256 poolId) {
